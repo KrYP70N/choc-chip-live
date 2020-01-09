@@ -9,10 +9,19 @@ body {
   justify-content: center;
   align-items: center;
   font-family: 'Roboto', sans-serif; }
+  body .pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  body p {
+    z-index: 1; }
   body .logo {
     display: flex;
     justify-content: flex-start;
-    align-items: center; }
+    align-items: center;
+    z-index: 1; }
     body .logo img {
       width: 50px;
       margin-right: 15px; }
@@ -27,7 +36,8 @@ body {
   body .list-group {
     display: flex;
     list-style: none;
-    flex-direction: row; }
+    flex-direction: row;
+    z-index: 1; }
     body .list-group li {
       margin-right: 15px; }
       body .list-group li:last-child {
