@@ -1,6 +1,6 @@
 {
   "port" : "8080",
-  "output" : "dist",
+  "output" : "docs",
   "html" : {
     "lang" : "pug",
     "watch" : "./src/templates/**/*.pug",
